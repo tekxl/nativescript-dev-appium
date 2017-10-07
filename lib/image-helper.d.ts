@@ -10,11 +10,11 @@ export declare class ImageHelper {
     delta(): number;
     cropImageA(): {
         x: number;
-        y: any;
+        y: number;
     };
     cropImageB(): {
         x: number;
-        y: any;
+        y: number;
     };
     verbose(): boolean;
     private runDiff(diffOptions, diffImage);

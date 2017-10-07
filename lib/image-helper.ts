@@ -2,13 +2,17 @@ import * as blinkDiff from "blink-diff";
 import { ImageOptions } from "./image-options";
 import { INsCapabilities } from "./ins-capabilities";
 
+const IPHONE_7 = 40; // 750 x1334
+const PLUS = 60; //     1242x2208
+const X = 128; //       1125x2436
+
 export class ImageHelper {
 
     constructor(private _args: INsCapabilities) {
     }
 
     private getOffsetPixels() {
-        return this._args.device.config.offsetPixels;
+        return X;
     }
 
     public imageOutputLimit() {
