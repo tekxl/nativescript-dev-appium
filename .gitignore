@@ -1,7 +1,6 @@
 .DS_Store
 node_modules
 *.tgz
-**/*.js
 **/*.map
 e2e/reports
 .vscode
